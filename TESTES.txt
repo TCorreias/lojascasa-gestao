@@ -1,0 +1,62 @@
+
+> lojascasa-gestao@1.0.0 test
+> node --test tests/*.test.js
+
+TAP version 13
+# Subtest: candidato válido
+ok 1 - candidato válido
+  ---
+  duration_ms: 2.00871
+  type: 'test'
+  ...
+# Subtest: promoção ativa excluída
+ok 2 - promoção ativa excluída
+  ---
+  duration_ms: 0.185115
+  type: 'test'
+  ...
+# Subtest: programada bloqueada
+ok 3 - programada bloqueada
+  ---
+  duration_ms: 0.259154
+  type: 'test'
+  ...
+# Subtest: coleta incompleta
+ok 4 - coleta incompleta
+  ---
+  duration_ms: 0.289179
+  type: 'test'
+  ...
+# Subtest: sem custo usa primeiro preço inferior
+ok 5 - sem custo usa primeiro preço inferior
+  ---
+  duration_ms: 0.256631
+  type: 'test'
+  ...
+# Subtest: retorno não verificado
+ok 6 - retorno não verificado
+  ---
+  duration_ms: 0.149863
+  type: 'test'
+  ...
+# Subtest: SKU divergente
+ok 7 - SKU divergente
+  ---
+  duration_ms: 0.127489
+  type: 'test'
+  ...
+# Subtest: sem custo sem histórico promocional
+ok 8 - sem custo sem histórico promocional
+  ---
+  duration_ms: 0.259605
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 63.313763

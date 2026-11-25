@@ -1,0 +1,1 @@
+{"name":"lojascasa-gestao","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.js","dev":"node local.js"},"engines":{"node":"22.x"}}
